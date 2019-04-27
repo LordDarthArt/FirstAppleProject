@@ -13,6 +13,7 @@
 		52CEF21A2273C8A600AE1CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CEF2182273C8A600AE1CCA /* Main.storyboard */; };
 		52CEF21C2273C8A900AE1CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CEF21B2273C8A900AE1CCA /* Assets.xcassets */; };
 		52CEF21F2273C8A900AE1CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CEF21D2273C8A900AE1CCA /* LaunchScreen.storyboard */; };
+		52CEF2272273D1CA00AE1CCA /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEF2262273D1CA00AE1CCA /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52CEF21B2273C8A900AE1CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52CEF21E2273C8A900AE1CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52CEF2202273C8A900AE1CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CEF2262273D1CA00AE1CCA /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				52CEF2122273C8A600AE1CCA /* AppDelegate.swift */,
 				52CEF2142273C8A600AE1CCA /* FirstViewController.swift */,
 				52CEF2162273C8A600AE1CCA /* SecondViewController.swift */,
+				52CEF2262273D1CA00AE1CCA /* ThirdViewController.swift */,
 				52CEF2182273C8A600AE1CCA /* Main.storyboard */,
 				52CEF21B2273C8A900AE1CCA /* Assets.xcassets */,
 				52CEF21D2273C8A900AE1CCA /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				52CEF2172273C8A600AE1CCA /* SecondViewController.swift in Sources */,
 				52CEF2132273C8A600AE1CCA /* AppDelegate.swift in Sources */,
+				52CEF2272273D1CA00AE1CCA /* ThirdViewController.swift in Sources */,
 				52CEF2152273C8A600AE1CCA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
