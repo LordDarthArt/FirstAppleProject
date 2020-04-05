@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina6_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t2b-Vi-6fR">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--News-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="FirstAppleProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                <viewController id="9pv-A4-QxB" customClass="NewsViewController" customModule="FirstAppleProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="132" y="385" width="150" height="43"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="News" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD" userLabel="News">
+                                <rect key="frame" x="116" y="196.5" width="88" height="43"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="110" y="436" width="194" height="17"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coming soon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L" userLabel="Coming soon">
+                                <rect key="frame" x="117.5" y="247.5" width="85" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,20 +49,20 @@
         <!--Weather-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="FirstAppleProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                <viewController id="8rJ-Kc-sve" customClass="WeatherViewController" customModule="FirstAppleProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="106" y="385" width="202" height="43"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Weather" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
+                                <rect key="frame" x="94.5" y="196.5" width="131" height="43"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="99.666666666666686" y="436" width="215" height="17"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coming soon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
+                                <rect key="frame" x="117.5" y="247.5" width="85" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -84,52 +83,97 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
-        <!--Third-->
+        <!--Auth-->
         <scene sceneID="UVG-BV-MOr">
             <objects>
-                <viewController id="d45-As-T9q" userLabel="Third" customClass="ThirdViewController" customModule="FirstAppleProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="d45-As-T9q" customClass="AuthViewController" customModule="FirstAppleProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dmC-tF-nwl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="aP5-IG-TNz">
-                                <rect key="frame" x="109.66666666666669" y="385" width="195" height="43"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm asking you for help" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gll-wT-EFl">
-                                <rect key="frame" x="134" y="436" width="146" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstAppleProjectBackground" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hj6-1d-SqX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="387"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9Hx-PH-9XL">
+                                <rect key="frame" x="10" y="157.5" width="300" height="121"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtP-im-gwU">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="56.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <state key="normal" title="Sign In With Google" backgroundImage="SignInWithGoogle">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cF3-rs-wJM">
+                                        <rect key="frame" x="0.0" y="64.5" width="300" height="56.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <state key="normal" title="Sign In With Facebook" backgroundImage="SignInWithFacebook">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NtH-or-WcI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="157.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gT8-DE-hX1">
+                                        <rect key="frame" x="94.5" y="45" width="131" height="68"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1W-De-Q7c">
+                                                <rect key="frame" x="0.0" y="0.0" width="131" height="43"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="36"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Working in proccess" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gll-wT-EFl">
+                                                <rect key="frame" x="0.0" y="51" width="131" height="17"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gT8-DE-hX1" firstAttribute="centerX" secondItem="NtH-or-WcI" secondAttribute="centerX" id="DZO-zA-tuB"/>
+                                    <constraint firstItem="gT8-DE-hX1" firstAttribute="centerY" secondItem="NtH-or-WcI" secondAttribute="centerY" id="NGF-eT-uOM"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="aP5-IG-TNz" secondAttribute="centerY" id="FDk-uf-LxJ"/>
-                            <constraint firstItem="Gll-wT-EFl" firstAttribute="centerX" secondItem="aP5-IG-TNz" secondAttribute="centerX" id="bFP-VG-PZe"/>
-                            <constraint firstAttribute="centerX" secondItem="aP5-IG-TNz" secondAttribute="centerX" id="f0y-I2-BMF"/>
-                            <constraint firstItem="Gll-wT-EFl" firstAttribute="top" secondItem="aP5-IG-TNz" secondAttribute="bottom" constant="8" symbolic="YES" id="ivr-wU-dMu"/>
+                            <constraint firstItem="NtH-or-WcI" firstAttribute="leading" secondItem="wM5-iU-lbx" secondAttribute="leading" id="0Y1-Vs-IOh"/>
+                            <constraint firstItem="9Hx-PH-9XL" firstAttribute="centerY" secondItem="dmC-tF-nwl" secondAttribute="centerY" id="2gr-jo-f8T"/>
+                            <constraint firstItem="wM5-iU-lbx" firstAttribute="trailing" secondItem="hj6-1d-SqX" secondAttribute="trailing" id="7Nq-Og-GT1"/>
+                            <constraint firstItem="wM5-iU-lbx" firstAttribute="trailing" secondItem="NtH-or-WcI" secondAttribute="trailing" id="9mL-iY-t3T"/>
+                            <constraint firstItem="9Hx-PH-9XL" firstAttribute="top" secondItem="NtH-or-WcI" secondAttribute="bottom" id="CEn-KL-DYd"/>
+                            <constraint firstItem="9Hx-PH-9XL" firstAttribute="top" secondItem="NtH-or-WcI" secondAttribute="bottom" id="DfT-Uz-T5w"/>
+                            <constraint firstItem="hj6-1d-SqX" firstAttribute="top" secondItem="wM5-iU-lbx" secondAttribute="top" id="EaP-0x-HWK"/>
+                            <constraint firstItem="hj6-1d-SqX" firstAttribute="leading" secondItem="wM5-iU-lbx" secondAttribute="leading" id="cQ2-34-I16"/>
+                            <constraint firstItem="wM5-iU-lbx" firstAttribute="bottom" secondItem="hj6-1d-SqX" secondAttribute="bottom" id="fvy-Bs-nZu"/>
+                            <constraint firstItem="NtH-or-WcI" firstAttribute="top" secondItem="wM5-iU-lbx" secondAttribute="top" id="gQq-P3-MTE"/>
+                            <constraint firstItem="9Hx-PH-9XL" firstAttribute="centerX" secondItem="dmC-tF-nwl" secondAttribute="centerX" id="pqa-ph-1do"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wM5-iU-lbx"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Auth Test" image="baseline_person_black_18dp" selectedImage="baseline_person_black_18dp" id="liD-tJ-zR3" userLabel="Hello World"/>
+                    <tabBarItem key="tabBarItem" title="Auth" image="baseline_person_black_18dp" selectedImage="baseline_person_black_18dp" id="liD-tJ-zR3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q6W-OJ-hLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749" y="1059"/>
+            <point key="canvasLocation" x="750" y="1058"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="W28-zg-YXA">
+                <tabBarController id="49e-Tb-3d3" userLabel="Main" customClass="MainViewController" customModule="FirstAppleProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="g8M-Rl-t5H"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.35686274509803922" green="0.34901960784313724" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="selectedImageTintColor" red="0.35686274509803922" green="0.34901960784313724" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
@@ -142,8 +186,43 @@
             </objects>
             <point key="canvasLocation" x="-287" y="360"/>
         </scene>
+        <!--Splash-->
+        <scene sceneID="zx5-O3-uCD">
+            <objects>
+                <viewController id="t2b-Vi-6fR" userLabel="Splash" customClass="SplashViewController" customModule="FirstAppleProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ufb-aU-f19">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="android_and_ios_are_friends" translatesAutoresizingMaskIntoConstraints="NO" id="zzY-pt-Zhi">
+                                <rect key="frame" x="122.5" y="220" width="75" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zzY-pt-Zhi" secondAttribute="height" multiplier="15:8" id="rGF-yA-bx1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zzY-pt-Zhi" firstAttribute="centerY" secondItem="ufb-aU-f19" secondAttribute="centerY" id="TO7-kb-0s0"/>
+                            <constraint firstItem="zzY-pt-Zhi" firstAttribute="top" secondItem="Eff-KO-Zp4" secondAttribute="top" constant="220" id="hU6-v8-jHI"/>
+                            <constraint firstItem="zzY-pt-Zhi" firstAttribute="centerX" secondItem="ufb-aU-f19" secondAttribute="centerX" id="ulX-aY-HlV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Eff-KO-Zp4"/>
+                    </view>
+                    <connections>
+                        <segue destination="49e-Tb-3d3" kind="showDetail" identifier="splash_to_tabs" id="5Xg-Pv-6J3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WHE-Ke-hcA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1071" y="359"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="FirstAppleProjectBackground" width="300" height="534"/>
+        <image name="SignInWithFacebook" width="300" height="56.5"/>
+        <image name="SignInWithGoogle" width="300" height="56.5"/>
+        <image name="android_and_ios_are_friends" width="300" height="283"/>
         <image name="baseline_cloud_black_18dp" width="36" height="36"/>
         <image name="baseline_list_black_18dp" width="36" height="36"/>
         <image name="baseline_person_black_18dp" width="36" height="36"/>

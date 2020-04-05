@@ -1,14 +1,14 @@
 //
-//  ThirdViewController.swift
+//  AuthViewController.swift
 //  FirstAppleProject
 //
-//  Created by Test on 27/04/2019.
-//  Copyright © 2019 LordDarthArt. All rights reserved.
+//  Created by LordDarthArt on 27/04/2019.
+//  Copyright © 2020 LordDarthArt. All rights reserved.
 //
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class AuthViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

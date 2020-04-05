@@ -1,20 +1,18 @@
 //
-//  SecondViewController.swift
+//  NewsViewController.swift
 //  FirstAppleProject
 //
-//  Created by Test on 27/04/2019.
-//  Copyright © 2019 LordDarthArt. All rights reserved.
+//  Created by LordDarthArt on 27/04/2019.
+//  Copyright © 2020 LordDarthArt. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class NewsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 

@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29403894241D8CE700009E0F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29403893241D8CE700009E0F /* SplashViewController.swift */; };
+		29403896241D93F100009E0F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29403895241D93F100009E0F /* MainViewController.swift */; };
 		52CEF2132273C8A600AE1CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEF2122273C8A600AE1CCA /* AppDelegate.swift */; };
-		52CEF2152273C8A600AE1CCA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEF2142273C8A600AE1CCA /* FirstViewController.swift */; };
-		52CEF2172273C8A600AE1CCA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEF2162273C8A600AE1CCA /* SecondViewController.swift */; };
+		52CEF2152273C8A600AE1CCA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEF2142273C8A600AE1CCA /* NewsViewController.swift */; };
+		52CEF2172273C8A600AE1CCA /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEF2162273C8A600AE1CCA /* WeatherViewController.swift */; };
 		52CEF21A2273C8A600AE1CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CEF2182273C8A600AE1CCA /* Main.storyboard */; };
 		52CEF21C2273C8A900AE1CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CEF21B2273C8A900AE1CCA /* Assets.xcassets */; };
 		52CEF21F2273C8A900AE1CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CEF21D2273C8A900AE1CCA /* LaunchScreen.storyboard */; };
-		52CEF2272273D1CA00AE1CCA /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEF2262273D1CA00AE1CCA /* ThirdViewController.swift */; };
+		52CEF2272273D1CA00AE1CCA /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEF2262273D1CA00AE1CCA /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29403893241D8CE700009E0F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		29403895241D93F100009E0F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		52CEF20F2273C8A600AE1CCA /* FirstAppleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAppleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CEF2122273C8A600AE1CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52CEF2142273C8A600AE1CCA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		52CEF2162273C8A600AE1CCA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		52CEF2142273C8A600AE1CCA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		52CEF2162273C8A600AE1CCA /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		52CEF2192273C8A600AE1CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52CEF21B2273C8A900AE1CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52CEF21E2273C8A900AE1CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52CEF2202273C8A900AE1CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52CEF2262273D1CA00AE1CCA /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		52CEF2262273D1CA00AE1CCA /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				52CEF2122273C8A600AE1CCA /* AppDelegate.swift */,
-				52CEF2142273C8A600AE1CCA /* FirstViewController.swift */,
-				52CEF2162273C8A600AE1CCA /* SecondViewController.swift */,
-				52CEF2262273D1CA00AE1CCA /* ThirdViewController.swift */,
+				52CEF2142273C8A600AE1CCA /* NewsViewController.swift */,
+				52CEF2162273C8A600AE1CCA /* WeatherViewController.swift */,
+				52CEF2262273D1CA00AE1CCA /* AuthViewController.swift */,
 				52CEF2182273C8A600AE1CCA /* Main.storyboard */,
 				52CEF21B2273C8A900AE1CCA /* Assets.xcassets */,
 				52CEF21D2273C8A900AE1CCA /* LaunchScreen.storyboard */,
 				52CEF2202273C8A900AE1CCA /* Info.plist */,
+				29403893241D8CE700009E0F /* SplashViewController.swift */,
+				29403895241D93F100009E0F /* MainViewController.swift */,
 			);
 			path = FirstAppleProject;
 			sourceTree = "<group>";
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52CEF2172273C8A600AE1CCA /* SecondViewController.swift in Sources */,
+				52CEF2172273C8A600AE1CCA /* WeatherViewController.swift in Sources */,
 				52CEF2132273C8A600AE1CCA /* AppDelegate.swift in Sources */,
-				52CEF2272273D1CA00AE1CCA /* ThirdViewController.swift in Sources */,
-				52CEF2152273C8A600AE1CCA /* FirstViewController.swift in Sources */,
+				52CEF2272273D1CA00AE1CCA /* AuthViewController.swift in Sources */,
+				29403896241D93F100009E0F /* MainViewController.swift in Sources */,
+				52CEF2152273C8A600AE1CCA /* NewsViewController.swift in Sources */,
+				29403894241D8CE700009E0F /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
