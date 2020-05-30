@@ -13,16 +13,13 @@ class SplashViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.isNavigationBarHidden = true
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            self.navigationController?.popViewController(animated: true)
-            self.navigationController?.viewControllers.removeAll(where: { self === $0 })
-            self.performSegue(withIdentifier: "splash_to_tabs", sender: nil)
+            let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+            let mainViewController = storyboard.instantiateViewController(withIdentifier: "Main")
+            self.navigationController?.pushViewController(mainViewController, animated: true)
         }
-    }
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        navigationController?.viewControllers.removeAll(where: { self === $0 })
     }
     
 }
